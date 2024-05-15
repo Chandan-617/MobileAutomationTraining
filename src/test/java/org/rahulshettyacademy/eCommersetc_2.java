@@ -26,7 +26,8 @@ public class eCommersetc_2 extends AndroidBaseTest {
 	{
 	//screen to home page
 		
-		Activity activity=new Activity("com.androidsample.generalstore","com.androidsample.generalstore.SplashActivity");
+		Activity activity
+		=new Activity("com.androidsample.generalstore","com.androidsample.generalstore.SplashActivity");
 		
 		driver.startActivity(activity);
 		
